@@ -1,0 +1,32 @@
+{
+  "name": "cypress-typescript-boilterplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "dashboard": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tariqp193/cypress-typescript-boilterplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tariqp193/cypress-typescript-boilterplate/issues"
+  },
+  "homepage": "https://github.com/tariqp193/cypress-typescript-boilterplate#readme",
+  "dependencies": {
+    "cypress": "^9.1.1",
+    "faker": "^5.5.3",
+    "mochawesome": "^7.0.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}

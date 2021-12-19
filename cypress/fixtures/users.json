@@ -1,0 +1,18 @@
+{
+    "customer": {
+        "email": "user@phptravels.com",
+        "password": "demouser"
+    },
+    "admin": {
+        "email": "agent@phptravels.com",
+        "password": "demoagent"
+    },
+    "agent": {
+        "email": "admin@phptravels.com",
+        "password": "demoadmin"
+    },
+    "supplier": {
+        "email": "supplier@phptravels.com",
+        "password": "demosupplier"
+    }
+}
