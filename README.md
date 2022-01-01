@@ -65,4 +65,4 @@ npm test
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@tariqp193](https://github.com/tariqp193) - Idea & Initial work
+- [@tariqp193](https://github.com/tariqp193)
