@@ -1,14 +1,13 @@
 const testData = require('../fixtures/users.json');
 
 const { tarik } = testData;
-describe("Login suite", () => { 
+describe('Login suite', () => {
+  beforeEach(() => {
+    cy.visit('/');
+  });
 
-    beforeEach(() => { 
-        cy.visit('/');
-    }); 
-
-    it('Login as Student', () => { 
-        cy.navigateToTheLoginPage();
-        cy.login(tarik.email, tarik.password);
-    });
+  it('Login as Student', () => {
+    cy.navigateToTheLoginPage();
+    cy.login(tarik.email, tarik.password);
+  });
 });
