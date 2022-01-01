@@ -1,7 +1,7 @@
 {
     "viewportHeight": 1080,
     "viewportWidth": 1920,
-    "baseUrl": "https://www.phptravels.net/",
+    "baseUrl": "https://demo.realworld.io/#/",
     "pageLoadTimeout": 60000,
     "taskTimeOut": 50000,
     "screenshotOnRunFailure": false,
