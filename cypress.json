@@ -10,7 +10,7 @@
   "chromeWebSecurity": false,
   "reporter": "mochawesome",
   "reporterOptions": {
-    "reportDir": "e2e/cypress/results",
+    "reportDir": "cypress/results",
     "overwrite": false,
     "html": true,
     "json": true
